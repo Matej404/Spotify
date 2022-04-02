@@ -2,5 +2,102 @@
   width: 100%;
   height: 75px;
   background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navlink {
+  text-decoration: none;
+}
+
+.navbar-right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
+.navbar-spotify {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  gap: 0.4rem;
+}
+
+.navbar-spotify .icon {
+  font-size: 2.5rem;
+}
+
+.navbar-spotify p {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.nav-menu li {
+  margin-left: 2rem;
+  font-weight: 600;
+}
+
+.navlink-menu {
+  text-decoration: none;
+  color: white;
+}
+
+.link-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  gap: 2rem;
+}
+
+.link-menu a {
+  color: rgba(255, 255, 255, 0.833);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+hr {
+  min-height: 20px;
 }
 /*# sourceMappingURL=navbar.css.map */
