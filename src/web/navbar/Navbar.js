@@ -26,7 +26,7 @@ export default function Navbar() {
 
     return(
         <div className="navbar">
-            <NavLink to="/spotify" className="navlink">
+            <NavLink to="/Spotify" className="navlink">
                     <div className="navbar-spotify">
                         <BsSpotify className="icon" />
                         <p>Spotify</p>
@@ -67,7 +67,7 @@ export default function Navbar() {
                     <div>
                     </div>
                 </div>
-                <NavLink to="/spotify" className="navlink navlink2" >
+                <NavLink to="/Spotify" className="navlink navlink2" >
                     <div className="navbar-spotify">
                         <BsSpotify className="icon" />
                         <p>Spotify</p>

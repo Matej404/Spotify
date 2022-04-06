@@ -13,7 +13,7 @@ export default function Main() {
             <Navbar />
             <main>
                 <Routes>
-                    <Route path="/spotify" element={<Spotify />} />
+                    <Route path="/Spotify" element={<Spotify />} />
                     <Route path="/premium" element={<Premium />} />
                     <Route path="/support" element={<Support />} />
                     <Route path="/download" element={<Download />} />

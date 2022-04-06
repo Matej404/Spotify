@@ -21,7 +21,7 @@ export default function Spotify() {
             <div className="spotify2">
                 <div className="spotify2-container">
                     <div className="spotify2-content spotify2-logo">
-                        <NavLink to="/spotify" className="navlink">
+                        <NavLink to="/Spotify" className="navlink">
                             <div className="navbar-spotify">
                                 <BsSpotify className="icon" />
                                 <p>Spotify</p>
@@ -87,20 +87,39 @@ export default function Spotify() {
                     <div className="spotify2-social-network">
                         <div className="social-network">
                             <a href="https://www.instagram.com/spotify/">
-                                <BsInstagram className="icon" />
+                                <BsInstagram className="icon-network" />
                             </a>
                         </div>
                         <div className="social-network">
                             <a href="https://twitter.com/spotify">
-                                <BsTwitter className="icon" />
+                                <BsTwitter className="icon-network" />
                             </a>
                         </div>
                         <div className="social-network">
                             <a href="https://www.facebook.com/SpotifyUKIE/?">
-                                <ImFacebook className="icon" />
+                                <ImFacebook className="icon-network" />
                             </a>
                         </div>
                     </div>
+                </div>
+                <div className="spotify2-container2">
+                    <ol className="bottom-list">
+                        <li>
+                            <a href="https://www.spotify.com/hr-en/legal/end-user-agreement/">Legal</a>
+                        </li>
+                        <li>
+                            <a href="https://www.spotify.com/hr-en/privacy">Privacy Center</a>
+                        </li>
+                        <li>
+                            <a href="https://www.spotify.com/hr-en/legal/privacy-policy/">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="">Cookie Settings</a>
+                        </li>
+                        <li>
+                            <a href="https://www.spotify.com/hr-en/legal/privacy-policy/#s3">About Ads</a>
+                        </li>
+                    </ol>
                 </div>
             </div>
         </div>
