@@ -96,6 +96,9 @@
 .navlink-menu {
     text-decoration: none;
     color: white;
+    &:hover {
+        color: #20d55f;
+    }
 }
 
 .link-menu {
@@ -111,6 +114,9 @@
         color: rgba(255, 255, 255, 0.833);
         text-decoration: none;
         font-weight: 600;
+        &:hover {
+            color: #20d55f;
+        }
         @media screen and (max-width: 900px) {
             font-size: 2rem;
             font-weight: 100;

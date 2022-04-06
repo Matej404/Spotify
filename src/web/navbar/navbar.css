@@ -160,6 +160,10 @@
   color: white;
 }
 
+.navlink-menu:hover {
+  color: #20d55f;
+}
+
 .link-menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -187,6 +191,10 @@
   color: rgba(255, 255, 255, 0.833);
   text-decoration: none;
   font-weight: 600;
+}
+
+.link-menu a:hover {
+  color: #20d55f;
 }
 
 @media screen and (max-width: 900px) {
