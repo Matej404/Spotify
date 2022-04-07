@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EACN,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,OAAe;CACpC",
+    "sources": [
+        "premium3.scss"
+    ],
+    "names": [],
+    "file": "premium3.css"
+}
