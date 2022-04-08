@@ -28,6 +28,12 @@
   font-weight: 900;
 }
 
+@media screen and (max-width: 600px) {
+  .spotify-container h1 {
+    font-size: 4rem;
+  }
+}
+
 .spotify-container p {
   color: #2ba001;
   font-weight: 600;

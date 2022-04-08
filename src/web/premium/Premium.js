@@ -9,6 +9,7 @@ export default function Premium() {
         <div className="premium">
             <Premium1 />
             <Premium2 />
+            <div id="avalible-plans" />
             <Premium3 />
         </div>
     )
