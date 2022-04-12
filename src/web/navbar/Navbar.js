@@ -40,7 +40,7 @@ export default function Navbar() {
                 <div className="navbar-right-side">
                     <ul className="nav-menu">
                         <li className="nav-link">
-                            <NavLink to="/premium" className="navlink-menu">
+                            <NavLink to="/premium" className="navlink-menu"  onClick={handleToggleMenu}>
                                 Premium
                             </NavLink>
                         </li>
