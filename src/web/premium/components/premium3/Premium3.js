@@ -66,7 +66,8 @@ export default function Premium3() {
                                 <p>Ad-free music listening, play offline, on-demand playback</p>
                             </div>
                         </div>
-                        <div className="get-started">
+                        <div className="plan-bottom">
+                            <div className="get-started">
                                 <a href="https://accounts.spotify.com/en/login?">
                                     GET STARTED
                                 </a>
@@ -74,6 +75,7 @@ export default function Premium3() {
                             <span>
                                 <a href="https://www.spotify.com/hr-en/legal/premium-promotional-offer-terms/">Terms and conditions apply.</a> 1 month free not available for users who have already tried Premium.
                             </span>
+                        </div>       
                     </div>
                     <div className="plan">
                         <div className="month">
@@ -99,7 +101,8 @@ export default function Premium3() {
                                 <p>Ad-free music listening, play offline, on-demand playback</p>
                             </div>
                         </div>
-                        <div className="get-started">
+                        <div className="plan-bottom">
+                            <div className="get-started">
                                 <a href="https://accounts.spotify.com/en/login?">
                                     GET STARTED
                                 </a>
@@ -107,6 +110,7 @@ export default function Premium3() {
                             <span>
                                 <a href="https://www.spotify.com/hr-en/legal/premium-promotional-offer-terms/">Terms and conditions apply.</a> 1 month free not available for users who have already tried Premium.
                             </span>
+                        </div>
                     </div>
                 </div>
             </div>

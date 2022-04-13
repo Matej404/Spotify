@@ -1,18 +1,33 @@
 .premium3 {
     width: 100%;
-    height: 100vh;
     background-color: black;
     color: white;
+    
 }
 
 .premium3-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 100px;
 }
 
 .premium3-header {
     text-align: center;
+    margin: 70px 0;
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+        @media screen and (max-width: 990px) {
+            font-size: 2.2rem;
+        }
+    }
+    p {
+        font-size: 1.4rem;
+        @media screen and (max-width: 990px) {
+            font-size: 1rem;
+        }
+    }
 }
 
 .premium3-plans-container {
@@ -26,7 +41,7 @@
 }
 
 .plan {
-    width: 31%;
+    max-width: 490px;
     height: 500px;
     background-color: white;
     color: black;
@@ -38,7 +53,8 @@
 }
 
 .price {
-    //border-bottom: 2px solid rgb(133, 133, 133);
+    display: flex;
+    flex-direction: column;
     h1 {
         font-size: 1.6rem;
         margin: 7px 0;
@@ -100,7 +116,6 @@ hr {
     align-items: center;
     padding: 15px 0;
     border-radius: 500px;
-    //margin: 15px 0;
     cursor: pointer;
     &:hover {
         transform: scale(1.05);
@@ -115,6 +130,7 @@ hr {
 span {
     font-size: 0.8rem;
     color: rgb(87, 87, 87);
+    margin: 15px 0;
     a {
         color: rgb(87, 87, 87);
     }

@@ -67,8 +67,8 @@ export default function Navbar() {
                     <div>
                     </div>
                 </div>
-                <NavLink to="/Spotify" className="navlink navlink2" >
-                    <div className="navbar-spotify">
+                <NavLink to="/Spotify" className="navlink navlink2" onClick={handleToggleMenu} >
+                    <div className="navbar-spotify" >
                         <BsSpotify className="icon" />
                         <p>Spotify</p>
                     </div>
