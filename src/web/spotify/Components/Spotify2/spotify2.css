@@ -1,63 +1,3 @@
-.spotify {
-  background-color: #2941ab;
-  width: 100%;
-  height: 100vh;
-}
-
-.spotify-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100%;
-  color: #20d55f;
-  text-align: center;
-}
-
-.spotify-container h1 {
-  font-size: 5.5rem;
-  font-weight: 900;
-}
-
-@media screen and (max-width: 600px) {
-  .spotify-container h1 {
-    font-size: 4rem;
-  }
-}
-
-.spotify-container p {
-  color: #2ba001;
-  font-weight: 600;
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-
-.spotify-container a {
-  text-decoration: none;
-  color: #2941ab;
-  font-weight: 600;
-}
-
-.spotify-link {
-  background-color: #2ba001;
-  padding: 15px 20px;
-  border-radius: 500px;
-}
-
-.spotify-link:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
 .spotify2 {
   background-color: black;
   width: 100%;
@@ -202,4 +142,4 @@
 .bottom-list li a:hover {
   color: #20d55f;
 }
-/*# sourceMappingURL=spotify.css.map */
+/*# sourceMappingURL=spotify2.css.map */

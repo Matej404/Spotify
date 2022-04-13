@@ -45,12 +45,12 @@ export default function Navbar() {
                             </NavLink>
                         </li>
                         <li className="nav-link">
-                            <NavLink to="/support" className="navlink-menu">
+                            <NavLink to="/support" className="navlink-menu" onClick={handleToggleMenu}>
                                 Support
                             </NavLink>
                         </li>
                         <li className="nav-link">
-                            <NavLink to="/download" className="navlink-menu">
+                            <NavLink to="/download" className="navlink-menu" onClick={handleToggleMenu}>
                                 Download
                             </NavLink>
                         </li> 
