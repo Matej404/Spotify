@@ -1,0 +1,108 @@
+.support1 {
+  width: 100%;
+  min-height: 500px;
+  background-color: #3b3bcf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.support1-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  height: 350px;
+}
+
+.support1-container h1 {
+  color: white;
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
+.support1-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.support1-input input {
+  width: 100%;
+  max-width: 650px;
+  height: 50px;
+  border: none;
+}
+
+.support1-input input:focus-visible {
+  outline: -webkit-focus-ring-color auto 0;
+}
+
+.search-icon {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border: none;
+  padding: 15px;
+}
+
+.support1-problems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1200px;
+}
+
+.support1-problem {
+  margin: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.support1-problem span {
+  color: rgba(255, 255, 255, 0.525);
+}
+
+.support1-problem p {
+  font-size: 1.1rem;
+}
+
+.support1-problem p a {
+  color: white;
+  text-decoration: none;
+}
+
+.support1-problem p a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=support1.css.map */
